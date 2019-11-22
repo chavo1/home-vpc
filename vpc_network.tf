@@ -14,7 +14,7 @@ resource "aws_subnet" "private" {
   map_public_ip_on_launch = false
 
   tags = {
-    Name = "Private"
+    Name = "chavo-private"
   }
 }
 # Explicitly associate private subnet to the main
